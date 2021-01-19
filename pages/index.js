@@ -9,7 +9,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          The overall Objective is to build out these UI made by the UI/UX Team{' '}
+          The overall Objective is to build out these UI made by the UI/UX Team In the PNG UIUX folder of the attached svcatv-uiux folder{' '}
           <code className={styles.code}>Using NEXTJS</code>
         </p>
 
@@ -33,7 +33,6 @@ export default function Home() {
           </a>
 
           <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
           >
             <h3>Commit &rarr;</h3>
@@ -44,10 +43,9 @@ export default function Home() {
         </div>
       </main>
 
-      <div className={styles.container}>
-        <main className={styles.main}>
-        <img src="../../svcatv-uiux/PNG UIUX/landing page design.png" alt="Vercel Logo" className={styles.logo} />
-        </main>
+      <div className={styles.card}>
+        
+        <img src="/landing-page-design.png" alt="The Landing Page UI" className={styles.image} />
       </div>
 
       <footer className={styles.footer}>
